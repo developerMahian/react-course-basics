@@ -1,7 +1,16 @@
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #333;
-  color: rgb(206, 206, 206);
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #000046; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to left,
+		rgb(7, 27, 82) 0%,
+		rgb(0, 128, 128) 100%
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to left,
+		rgb(7, 27, 82) 0%,
+		rgb(0, 128, 128) 100%
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
