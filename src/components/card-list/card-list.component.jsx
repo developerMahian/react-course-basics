@@ -1,4 +1,5 @@
 import React from "react";
+
 import Card from "../card/card.component";
 
 import "bootstrap/dist/css/bootstrap-grid.min.css";
